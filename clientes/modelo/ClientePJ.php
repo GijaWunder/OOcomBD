@@ -16,7 +16,7 @@ class ClientePJ extends Cliente{
     }
 
     public function getTipo(){
-        return "Pessoa Jurídica";
+        return "J";
     }
 
     

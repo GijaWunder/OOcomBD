@@ -8,6 +8,12 @@ abstract class Cliente{
     public abstract function getNome();
     public abstract function getNroDoc();
     public abstract function getTipo();
+
+    public function __toString(){
+        $dados = sprintf("ID: %d | Cliente tipo: %s | Nome social: %s | Email: %s | Nome: %s | Outro: %s", $this->id, $this->getTipo(), $this->nomeSocial, $this->email, $this->getNome(), $this->getNroDoc());
+
+        return $dados;
+    }
     
 
     /**

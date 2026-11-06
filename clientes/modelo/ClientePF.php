@@ -16,7 +16,7 @@ class ClientePF extends Cliente{
     }
 
     public function getTipo(){
-        return "Pessoa Fisíca";
+        return "F";
     }
 
     /**
